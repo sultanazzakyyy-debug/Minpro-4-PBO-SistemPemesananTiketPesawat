@@ -13,10 +13,6 @@ import model.TiketBisnis;
 import model.TiketEkonomi;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import org.hibernate.SessionFactory;
-import org.hibernate.cfg.Configuration;
 
 /**
  *

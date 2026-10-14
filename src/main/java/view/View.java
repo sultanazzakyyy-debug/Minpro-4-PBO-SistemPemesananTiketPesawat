@@ -6,7 +6,6 @@ package view;
 import java.util.List;
 import model.Penerbangan;
 import model.Tiket;
-import java.util.List;
 
 /**
  *

@@ -5,7 +5,6 @@
 package dao;
 import java.util.List;
 import model.Penerbangan;
-import java.util.List;
 
 /**
  *
