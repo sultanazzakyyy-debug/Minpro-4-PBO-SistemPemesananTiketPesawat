@@ -238,9 +238,11 @@ Pemesanan tiket butuh tiga langkah (simpan penumpang, kurangi kursi, simpan tike
 
 
 <img width="172" height="19" alt="image" src="https://github.com/user-attachments/assets/049bed1f-54c9-48ea-9b93-38b6cf5e6e3b" />
+
 ```// simpan penumpang, kurangi kursi, simpan tiket```
 
 <img width="112" height="18" alt="image" src="https://github.com/user-attachments/assets/8ee1e4aa-1984-4fca-8854-2529c7cf96e1" />
+
 ```kalau ada SQLException -> conn.rollback(), semuanya dibatalkan```
 
 
