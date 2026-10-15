@@ -24,7 +24,7 @@ Minpro-4-PBO-SistemPemesananTiketPesawat
 │   └── db_tiket_pesawat.sql                  -> struktur tabel + dummy data awal
 ├── pom.xml                                   -> dependency: mysql-connector-j & hibernate-core
 └── src/main/java/
-    ├── Main.java                             -> titik masuk aplikasi
+    ├── SistemPemesananTiketPesawat.java                             -> titik masuk aplikasi
     ├── config/
     │   ├── Koneksi.java                      -> pengaturan koneksi database
     │   └── HibernateUtil.java                -> menyiapkan Hibernate (SessionFactory)
@@ -65,7 +65,7 @@ Minpro-4-PBO-SistemPemesananTiketPesawat
 | `PenerbanganDAOHibernate`, `TiketDAOHibernate` | `dao` | Implementasi operasi database memakai Hibernate (ORM) |
 | `Koneksi` | `config` | Menyimpan URL, user, password database dan membuat koneksi JDBC |
 | `HibernateUtil` | `config` | Membangun `SessionFactory` Hibernate |
-| `Main` | (root) | Menjalankan program |
+| `SistemPemesananTiketPesawat` | (root) | Menjalankan program |
 
 Pembagian MVC-nya tetap sama: **Model** (`model/`), **View** (`view/`), dan **Controller** (`controller/`), dengan tambahan lapisan **DAO** (`dao/`) yang khusus mengurus komunikasi ke database sehingga `Controller` tidak perlu menulis query SQL sama sekali.
 
